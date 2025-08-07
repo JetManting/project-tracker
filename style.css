@@ -1,19 +1,18 @@
-@font-face {
-  font-family: 'Neue Montreal';
-  src: url('./fonts/NeueMontreal-Regular.otf') format('opentype');
-  font-weight: normal;
-}
-@font-face {
-  font-family: 'Neue Montreal';
-  src: url('./fonts/NeueMontreal-Bold.otf') format('opentype');
-  font-weight: bold;
-}
-
+/* If fonts still fail to load, this fallback ensures visual consistency */
 body {
-  font-family: 'Neue Montreal', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
 }
 
 h1 {
@@ -66,20 +65,4 @@ th {
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 4px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  font-family: 'Neue Montreal', sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  max-width: 900px;
-  width: 100%;
-  padding: 40px 20px;
-  background-color: #f4f4f4;
 }
