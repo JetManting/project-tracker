@@ -67,3 +67,19 @@ th {
   text-transform: uppercase;
   margin-bottom: 4px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: 'Neue Montreal', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
