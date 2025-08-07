@@ -1,18 +1,8 @@
-/* If fonts still fail to load, this fallback ensures visual consistency */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  max-width: 900px;
-  width: 100%;
-  padding: 40px 20px;
-  background-color: #f4f4f4;
+  padding: 20px;
 }
 
 h1 {
