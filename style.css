@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('./fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('./fonts/NeueMontreal-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Neue Montreal', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.progress-bar {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  max-width: 500px;
+  gap: 1px;
+  margin-left: 1.5cm;
+}
+
+.block {
+  flex: 1;
+  border: 1px solid black;
+  background-color: white;
+  height: 100%;
+}
+
+.block.filled {
+  background-color: black;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5cm;
+  max-width: 500px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
